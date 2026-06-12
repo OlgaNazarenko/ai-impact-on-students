@@ -26,3 +26,9 @@ ai-impact-students/
 └── README.md
 
 ```
+
+
+## 🗂 Dataset
+
+**Dataset**: Impact of Ai on Students 
+**Source**: [Data](https://www.kaggle.com/datasets/laveshjadon/ai-impact-on-students)
