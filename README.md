@@ -17,10 +17,8 @@ ai-impact-students/
 │   └── stats.ipynb
 ├── 03_classification_burnout/
 │   └── model.ipynb
-├── 04_gpa_regression/
+├── 04_..._regression/
 │   └── regression.ipynb
-├── 05_shap_interpretability/
-│   └── shap_analysis.ipynb
 ├── utils.py
 ├── requirements.txt
 └── README.md
