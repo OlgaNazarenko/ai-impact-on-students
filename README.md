@@ -1,35 +1,36 @@
-# ai-impact-on-students
-
-## Overview
-
-This project analyzes how students use Generative AI tools and how it affects their academic performance. It uses data analysis and machine learning techniques to study relationships between AI usage, GPA change, and student behaviour. The goal is to identify patterns and provide insights into the impact of AI in education.
-
-## 🎯 Project Goals
-
-* Explore how Generative AI is used by students.
-* Analyze the impact of AI usage on academic performance and well-being.
-* Predict student performance using machine learning models.
-* Identify patterns in student learning behaviours.
-* Determine key factors that influence academic success.
-* Provide recommendations for improving learning with AI tools.
-
-
-## Structure
-
-```
-project/
-├── AI_Impact_On_Students.ipynb
-├── data/
-│   └── ai_student_impact_dataset.csv
-├── utils.py
-├── requirements.txt
-├── report.pdf
-└── README.md
-
-```
-
-
 ## 🗂 Dataset
 
-**Dataset**: Impact of Ai on Students 
-**Source**: [Data](https://www.kaggle.com/datasets/laveshjadon/ai-impact-on-students)
+**Dataset:** Impact of AI on Students
+**Source:** [Kaggle — laveshjadon/ai-impact-on-students](https://www.kaggle.com/datasets/laveshjadon/ai-impact-on-students)
+**Size:** 50,000 rows × 16 columns
+**Key features:** Weekly GenAI Hours, Traditional Study Hours, Prompt Engineering
+Skill, Institutional Policy, Burnout Risk Level, Skill Retention Score, Pre/Post GPA
+
+## 🔍 Key Findings
+
+- **GPA change** showed no meaningful correlation with weekly AI usage hours —
+  more AI use does not predict better or worse grades
+- **Skill retention** was positively associated with traditional study hours and
+  tool diversity
+- **Burnout risk** classification achieved only ~52% accuracy across all models
+  (Logistic Regression, Random Forest), barely above the majority class baseline.
+  Feature importance analysis revealed that `Weekly_GenAI_Hours` drove 90% of
+  predictions yet still could not separate burnout levels — strongly suggesting
+  that `Burnout_Risk_Level` was assigned independently of other features in this
+  synthetic dataset
+- This highlights an important real-world lesson: model performance must always
+  be interpreted in the context of data quality
+
+## ⚙️ How to Run
+
+```bash
+git clone https://github.com/OlgaNazarenko/ai-impact-on-students.git
+cd ai-impact-on-students
+pip install -r requirements.txt
+```
+
+Then open the notebooks in order starting with `01_eda/`.
+
+## 🛠 Tools & Libraries
+
+Python, pandas, NumPy, scikit-learn, matplotlib, seaborn, scipy
