@@ -1,8 +1,11 @@
 ## 🗂 Dataset
 
 **Dataset:** Impact of AI on Students
+
 **Source:** [Data] [Kaggle — laveshjadon/ai-impact-on-students](https://www.kaggle.com/datasets/laveshjadon/ai-impact-on-students)
+
 **Size:** 50,000 rows × 16 columns
+
 **Key features:** Weekly GenAI Hours, Traditional Study Hours, Prompt Engineering
 Skill, Institutional Policy, Burnout Risk Level, Skill Retention Score, Pre/Post GPA
 
